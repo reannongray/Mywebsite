@@ -4,10 +4,11 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9; /* Background color */
+    background-color: #68c3d4; /* Summer sky */
+    color: #fff; /* White text */
 }
 
-.header {
+header {
     background-color: #68c3d4; /* Summer sky */
     color: #fff; /* White text */
     padding: 1em;
@@ -16,27 +17,33 @@ body {
 
 .welcome, .introduction, .content {
     margin: 20px;
+    background-color: #68c3d4; /* Summer sky */
+    padding: 20px;
+    border-radius: 10px;
 }
 
-.footer {
+footer {
     text-align: center;
     padding: 10px;
-    background-color: #f0f0f0; /* Field */
-    color: #333; /* Dark text */
+    background-color: #68c3d4; /* Summer sky */
+    color: #fff;
 }
 
 /* Profile section styles */
 .profile-container {
     display: flex;
     align-items: center;
+    background-color: #68c3d4; /* Summer sky */
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .profile-thumbnail {
-    max-width: 100px; /* Adjust width as needed */
-    height: auto; /* Maintain aspect ratio */
+    width: 100px; /* Standard size for all images */
+    height: 100px; /* Standard size for all images */
     border-radius: 50%; /* Makes the image round */
     margin-right: 20px; /* Space between image and details */
-    border: 3px solid #f9d4b9; /* Warm peach */
+    border: 3px solid #000; /* Black border */
 }
 
 .profile-details {
@@ -52,18 +59,23 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    justify-content: space-around;
 }
 
 .hobby-item {
     text-align: center;
     flex-basis: calc(20% - 20px); /* Adjust width of each item */
+    background-color: #68c3d4; /* Summer sky */
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .hobby-item img {
-    max-width: 100px; /* Adjust width of hobby images */
-    height: auto;
+    width: 100px; /* Standard size for all images */
+    height: 100px; /* Standard size for all images */
     border-radius: 5px;
-    border: 3px solid #68c3d4; /* Summer sky */
+    border: 3px solid #000; /* Black border */
+    margin-bottom: 10px; /* Space between image and text */
 }
 
 .hobby-item p {
