@@ -1,0 +1,127 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: #fff;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff69b4; /* Pink */
+    color: #fff; /* White */
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.welcome {
+    text-align: center;
+    margin: 20px;
+    font-size: 1.5em;
+    color: #ff69b4; /* Pink */
+}
+
+.profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.introduction, .content {
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid #ff69b4; /* Pink */
+    border-radius: 10px;
+    background-color: #fff; /* White */
+}
+
+h2 {
+    color: #ff69b4; /* Pink */
+}
+
+p, ul {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.hobby-image {
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #000; /* Black */
+    color: #fff; /* White */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    .welcome, .introduction, .content {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    .hobby-image {
+        width: 150px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .profile {
+        width: 100px;
+        height: 100px;
+    }
+
+    .images {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hobby-image {
+        width: 100%;
+        height: auto;
+        margin: 5px 0;
+    }
+
+    footer {
+        position: static;
+        padding: 20px;
+    }
+}

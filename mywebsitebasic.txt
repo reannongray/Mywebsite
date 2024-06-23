@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Reannon Gray's Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Reannon Gray's Website</h1>
+    </header>
+    <section class="welcome">
+        <h2>Welcome Ya'll</h2>
+        <img src="picwebsitepic.png" alt="Reannon Gray" class="profile">
+    </section>
+    <section class="introduction">
+        <h2>About Me</h2>
+        <p>Hi! My name is Reannon Gray. I'm a mom of 4, working at the VA's OIT help desk, and learning to code. I'm also pursuing my master's degree in Applied Behavior Analysis (ABA). I love to read and explore new knowledge. Fall is my favorite time of year. Join me on my journey of balancing family, work, and education with a touch of southern charm. Additionally, I am actively seeking part-time or full-time opportunities in the coding world.</p>
+    </section>
+    <section class="content">
+        <h2>My Hobbies</h2>
+        <ul>
+            <li>Reading</li>
+            <li>Learning to code</li>
+            <li>Spending time with my kids</li>
+            <li>Playing MMORPGs and other video games</li>
+            <li>Learning new things</li>
+        </ul>
+        <div class="images">
+            <img src="reading.jpg" alt="Reading" class="hobby-image">
+            <img src="coding.jpg" alt="Coding" class="hobby-image">
+            <img src="family.jpg" alt="Family time" class="hobby-image">
+            <img src="gaming.jpg" alt="Gaming" class="hobby-image">
+            <img src="learning.jpg" alt="Learning new things" class="hobby-image">
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Reannon Gray. All rights reserved.</p>
+    </footer>
+</body>
+</html>
